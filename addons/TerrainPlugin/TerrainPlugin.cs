@@ -659,7 +659,7 @@ namespace TerrainEditor
 
 				if (selectedTerrain.terrainDefaultTexture == null)
 				{
-					var mat = GD.Load<CompressedTexture2D>("res://addons/TerrainPlugin/TestTextures/texel.png");
+					var mat = GD.Load<CompressedTexture2D>("res://addons/TerrainPlugin/TestTextures/512x512 Texel Density Texture.png");
 					selectedTerrain.terrainDefaultTexture = mat;
 				}
 				var typeImport = (HeightmapAlgo)heightmapAlgoControl.GetSelectedId();
